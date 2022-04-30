@@ -24,6 +24,9 @@ class Login
             {
                 $_SESSION['name'] = $row['name'];
                 $_SESSION['mobile'] = $row['mobile'];
+                $_SESSION['billing'] = $row['address'];
+                $_SESSION['show']= $row['name'];
+                $_SESSION['display'] = $row['mobile'];
 
             }else
             {
