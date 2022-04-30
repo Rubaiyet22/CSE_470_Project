@@ -23,13 +23,14 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
         echo "</div>";	
     }else
     {
+        
         header("Location: index.php");
         die;
     }
 
     $mobile = $_POST['mobile'];
     $password = $_POST['password'];
-    
+   
     
 
 }
